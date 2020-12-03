@@ -1,6 +1,6 @@
 # Creating A Dog in SVG
 
-**Name**: Livvy Beggs
+**Author**: Livvy Beggs
 
 **Date**: December 3rd, 2020
 
