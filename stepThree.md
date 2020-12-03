@@ -2,25 +2,23 @@
 
 
 
-Alright, so now that we’ve discussed how to set up a basic HTML document, let’s begin talking about how to create an SVG image. W3schools has a more in-depth tutorial on how to create an SVG image [here](https://www.w3schools.com/graphics/svg_intro.asp).
+Alright, so now that we’ve discussed how to set up a basic **HTML** document, let’s begin talking about how to create an **SVG** image. W3schools has a more in-depth tutorial on how to create an **SVG** image [here](https://www.w3schools.com/graphics/svg_intro.asp). This tutorial will just explain the basics of starting an **SVG** image. The next tutorial will teach you how to make a specific image.
 
-The first step to creating an **SVG** image is to define your <svg></svg> tags.
+The first step to creating an **SVG** image is to define your <svg></svg> tags. These tags go inside your <body></body> tags. Add some space between the tags.
 
-After defining your <svg></svg> tags, you now need to define a height and width to the image.
-
-
-
-Let’s discuss how an SVG image is mapped out.
+![svgTags](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\17.PNG)
 
 
 
-First, think of your html document as a big graph. Each point on the graph is defined by an x- and y-coordinate. Each point corresponds to a pixel. For example, if you want your image to 100x100 pixels, imagine a graph that is 100x100 points large. By visualizing your HTML document as a graph, you can gain a better understanding of how to draw your image.
+After defining your <svg></svg> tags, you now need to define a height and width to the image. But first, let's discuss how an **SVG** image is mapped out.
 
+To help visualize, think of your **HTML** document as a big graph. Each point on the graph is defined by an _x-_ and _y-coordinate_. Each point corresponds to a pixel. 
 
+For example, if you want your image to 100x100 pixels, imagine a graph that is 100x100 points large. By visualizing your **HTML** document as a graph, you can gain a better understanding of how to draw your image with **SVG**.
 
-To define your image to be 100x100 pixels wide, write height=”100” width=”100” in your <svg> open tag like this: <svg height=”100” width=”100”>
+To define an image to be 100x100 pixels wide, write height=”100” width=”100” in your <svg> open tag like this:
 
-
+![100by100](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\18.PNG)
 
 The next step is to decide on what kind of image you want to create.
 
