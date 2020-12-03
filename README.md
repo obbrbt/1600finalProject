@@ -1,14 +1,14 @@
-# Creating A Dog in SVG
+# SVG Tutorial
 
 **Author**: Livvy Beggs
 
 **Date**: December 3rd, 2020
 
 
-**Summary**: This tutorial will provide steps on how to create a dog-like shadow using SVG(Scalable Vector Graphics)
+**Summary**: This tutorial will provide step-by-step instructions on how to create an SVG image, the basics of HTML document creation, and at the end, provide step-by-step instructions on how to create a dog-like SVG image.
 
 
-**Target Audience**: Anyone old enough to use a computer should be able to easily follow this tutorial. No prior knowledge is required, except a basic understanding of graphs.
+**Target Audience**: The intended audience for this tutorial is anyone who is old enough and knows how to use a computer. These instructions are meant to be detailed enough so that anyone who is new to using either HTML or is new to creating SVG images should be able to do so successfully.
 
 ### Tutorial Steps
-* [Step One](stepOne.md)
+* [Step One: What the Heck is SVG?](stepOne.md)
