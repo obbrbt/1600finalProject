@@ -6,4 +6,4 @@ I personally use [Brackets](http://brackets.io/). It's free and can be used on b
 
 The first thing you need to do is open up a new document in Brackets.
 
-![Screenshot1](https://imgur.com/a/NFqLztd)
+![Screenshot1](https://i.imgur.com/UgMRjbk.png)
