@@ -1,0 +1,301 @@
+﻿* ReadMe
+* Step One: What the Heck is SVG?
+* Step Two: What the Heck is HTML?
+* Step Three: Creating an SVG Image
+* Step Four: How to Make a Dog SVG Image
+* Step Five: Adding Color
+* Step Six: Closing
+
+
+Read Me:
+
+Title: SVG Tutorial
+Author: Livvy Beggs
+Date: December 3rd, 2020
+Summary: This tutorial will provide step-by-step instructions on how to create an SVG image, the basics of HTML document creation, and at the end, provide step-by-step instructions on how to create a dog-like SVG image.
+Target Audience: The intended audience for this tutorial is anyone who is old enough and knows how to use a computer. These instructions are meant to be detailed enough so that anyone who is new to using either HTML or is new to creating SVG images would be able to do so successfully.
+
+Tutorial Steps:
+
+Step One: What the Heck is SVG?
+Step Two: What the Heck is HTML?
+Step Three: Creating an SVG Image
+Step Four: How to Make a Dog SVG Image
+Step Five: Adding Color
+Step Six: Closing
+
+Step One: What the Heck is SVG?
+
+Before creating an SVG image, let’s first discuss what the heck SVG even is. According to Wikipedia, “Scalable Vector Graphics (SVG) is an Extensible Markup Language (XML)-based vector image format for two-dimensional graphics with support for interactivity and animation.”
+(https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+
+Let’s break this down. SVG stands for Scalable Vector Graphics. Scalable, meaning that it is easy to scale the image, vector as the format of the image, and graphics meaning, well, graphics!
+
+Extensible Markup Language, or XML, is a markup language that is commonly used on the web and is both machine-readable and human readable.
+(https://en.wikipedia.org/wiki/XML) 
+
+A markup language is any language on a computer that processes how text should be displayed.
+(https://en.wikipedia.org/wiki/Markup_language)
+
+
+The purpose of SVG is to create images programmatically without having to open up another software, such as Photoshop, to create an image.
+
+In order to create an SVG image, you first need to create a document that can use SVG. For this tutorial, we’ll be using html.
+
+
+But before we do, what the heck is HTML?
+
+Step Two: What the heck is HTML?
+
+We’re going to go over a broad definition of HTML and only use what is necessary for this tutorial. For a more in-depth tutorial on how to use HTML, I recommend using W3Schools.
+(https://www.w3schools.com/html/default.asp)
+
+To begin, let’s first discuss the purpose of HTML.
+
+According to Wikipedia, “Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.”
+(https://en.wikipedia.org/wiki/HTML)
+
+So, just like XML, HTML is a web-based markup language. HTML is also the most commonly used markup language on the web.
+
+Alright, so now you know what HTML is, but how do you create an HTML document?
+
+To begin, first download an appropriate text editing software. It has to be a software that is plain-text, and not rich-text. Plain-text means that what you see on the page is all the information available. Rich-text means that what you see on the page has things going on in the background, such as formatting. Microsoft Word, for example, is a rich-text format, so it won’t be appropriate for our purposes. We need a software that is plain-text and readable by a browser.
+
+For this tutorial, I’ll be using Brackets. If you would like to follow along, I would recommend downloading Brackets here: http://brackets.io/ or using your favorite plain text editor.
+
+I like to use Brackets because it’s free and available on both Mac and Windows computers.
+
+Now, the first thing you want to do is open up a new file in Brackets. Before you start any editing, you want to save the file with a .html extension. I’ll be calling my file “tutorial.html” but you can name yours to anything you wish, as long as it ends with “.html”.
+
+Now that you have an HTML document ready, let’s discuss how to start writing HTML.
+
+For our purposes, we’ll be using five basic tags in HTML, but know that there are many more.
+
+<!DOCTYPE>
+
+When you first create an HTML document, the first line of code you need is the doctype declaration. The doctype declaration provides information to your browser to prepare it to use a specific document format. In this case, it’ll be using the html format.
+The doctype declaration looks like this: <!DOCTYPE format>
+
+
+It’s not case sensitive, so you can use <!doctype>, <!DocType>, <!docType>, or even <!dOcTyPe> and it will still work. However, it is most commonly seen in all caps, so that’s what we’ll be using for our document.
+
+
+The format portion of the <!DOCTYPE> declaration contains what format to prepare our browser for. Since we’ll be using html, we want to prepare our browser to use html by having our first line of code look like this: <!DOCTYPE html>
+
+
+<html>
+
+
+The second basic tag we’ll be using is the <html> tag. 
+
+Before we discuss the <html> tag, let’s first talk about tags in general. All tags have an opening tag that looks like this: <tag>
+
+Some tags, like the <html> tag, need to have a close tag in order to be used. The html close tag looks like this: </html>
+
+
+Not all tags require both open and close tags. Some only need an opening tag. <img> is a tag that only requires the open tag. To learn more about tags, visit this W3schools link: (https://www.w3schools.com/tags)
+
+So, to use an <html> tag, make sure you also use the </html> close tag.
+
+
+Now that we know more about tags, let’s talk about why you need to use the <html> tag in the first place. 
+
+
+The <html> tag contains all of the information that goes into an HTML document, except for the <!DOCTYPE> declaration.
+
+Every other tag that you create will be placed between the open <html> tag and the close </html> tag.
+
+<head>
+
+
+After creating your <html> tags, the next thing you want to write are the <head></head> tags. The <head> in an HTML document can hold all sorts of things, including style sheets, scripts, and titles. For our purposes, we’ll only be using <head> for a <title> tag.
+
+<title>
+
+Now that you have a <head> tag, let’s place <title></title> tags inside of them.
+
+
+The <title> tag is used to define a title to your HTML document. Whenever you view an HTML document in a browser, the title will be at the top of the tab.
+
+
+For my HTML document, I’m going to be naming mine “SVG Tutorial”. You can name yours whatever you like. Just make sure you place the title between the <title></title> tags and the <title></title> tags between the <head></head> tags.
+
+
+<body>
+
+
+The final tag we’ll be discussing is the <body> tag. Just like the other two tags, <body> needs both an opening <body> tag and a closing </body> tag.
+
+
+The <body> tag holds the “body” of your document. This could be things like headers, paragraphs, and images. Our body is going to hold our <SVG> image.
+
+
+Step Three: Creating an SVG Image
+
+
+Alright, so now that we’ve discussed how to set up a basic HTML document, let’s begin talking about how to create an SVG image. W3schools has a more in-depth tutorial on how to create an SVG image here: (https://www.w3schools.com/graphics/svg_intro.asp)
+
+
+The first step to creating an SVG image is to define the <svg></svg> tags. These need to be placed within your <body></body> tags.
+
+
+After defining your <svg></svg> tags, you now need to define a height and width to the image.
+
+
+Let’s discuss how an SVG image is mapped out.
+
+
+First, think of your html document as a big graph. Each point on the graph is defined by an x- and y-coordinate. Each point corresponds to a pixel. For example, if you want your image to 100x100 pixels, imagine a graph that is 100x100 points large. By visualizing your HTML document as a graph, you can gain a better understanding of how to draw your image.
+
+
+To define your image to be 100x100 pixels wide, write height=”100” width=”100” in your <svg> open tag like this: <svg height=”100” width=”100”>
+
+
+The next step is to decide on what kind of image you want to create.
+
+
+For a polygonal shape, I recommend drawing your desired image on graph paper, so you can define the points you need to create. This kind of image will have to be created with a polygon.
+
+
+For a more simple image, you can use SVG’s predefined shapes, such as circles, rectangles and ellipses. Each of these shapes has its own defined properties, so be sure to check W3schools(https://www.w3schools.com/graphics/svg_intro.asp) for which properties you need for each shape.
+
+
+To create a polygon SVG image, you need to define a polygon.
+
+
+A polygon is defined with the <polygon></polygon> tags. Place your <polygon> tags inside of your <svg></svg> tags. To define properties of a polygon, you place them in the opening <polygon> tag. 
+
+
+The shape of your polygon will be set with the “points” property. “Points” are coordinate values on a graph.
+
+
+Put a points property in your polygon start tag like this: <polygon points=””></polygon>
+
+
+The points of the polygon are defined as: points=”x1,y1 x2,y2 x3,y3”
+
+
+Each of these points will be placed on a graph and lines will be drawn between them to create an image.
+
+
+Here’s a simple example of a triangle created with SVG polygons:
+
+
+
+
+
+
+Here’s the code to do this:
+
+
+
+
+
+
+This is the set-up for a basic polygonal SVG image. From here, you can either create your own unique image by setting the points yourself or you can continue with this tutorial to create your own Dog SVG image.
+
+
+Step Four: Creating a Dog Graphic
+
+
+This is a dog image I have created in the past. Let’s try to recreate this image.
+
+
+To begin, let’s first set our SVG to be 300x300 pixels wide.
+
+
+You can, of course, change the image to be whatever size you want. But if you want your image to look exactly like mine, I recommend creating yours to be 300x300.
+
+
+Next, let’s create the polygon tags.
+Now, let’s start adding some points. The best place to start is the beginning, so the first point we will define will be the starting point of our image. This point will be the tip of the nose.
+
+
+To place a point for the nose, use the coordinates (1,160), like this:
+
+
+<polygon points=”1,160”></polygon>
+
+
+Before we start adding more points, I’d like to show you the live preview feature offered by Brackets. If you click here, you can watch your code in action. You may need to save it and reload the window before the image changes. You won’t start seeing an image until you have at least three points on your graph.
+
+
+So far, your code should look like this:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>SVG Tutorial</title>
+</head>
+<body>
+<svg height=”300” width=”300”>
+<polygon points=”1,160”></polygon>
+</svg>
+</body>
+</html>
+
+
+The next point will be the start of the lips. This point is defined by (1,175).
+
+
+To continue with the lips, make the point (1,190)
+
+
+We need to keep creating points before you start seeing anything.
+
+
+Let’s continue with the mouth of our dog. Our next point will be (1,210).
+
+
+To start seeing an image, add the point (25,230)
+
+
+Let’s continue with the jaw. Add these two points: (50,230) and (75,230).
+
+
+Remember, the more points you add, the smoother the image will be. The fewer points you add, the sharper the image will be.
+
+The next four points will create a rounded jaw. These points are (100,240), (150,250), (200,250), and (250,234).
+
+
+To continue with the back of the jaw, add these points: (275,200), (285,180), (300,120), (290,90).
+
+
+Now, we’ll add the ear!
+
+
+Since fewer points will create a sharper image, let’s only add three points to make the ears. Add these points: (250,50), (210,10) and (200,90)
+
+
+Almost done. Now we just need to shape the crest of the head and the muzzle.
+
+
+Add these points: (160, 90), (130,100), (110,110), (100,120) and finally, (90,135).
+
+
+You should now see your dog!
+
+
+Note: if you end up having issues or your image does not turn out right, make sure you’re adding these points in the correct order. If they end up out of order, your image won’t look right.
+
+
+Step Five: Adding Color
+
+
+Alright, so now you’ve completed your dog and you like how it looks! However, you think your dog needs a little bit of flair. Maybe a different color?
+
+
+Fortunately, adding color is really simple! HTML provides a large library of colors that you can add to your dog. You can also add colors with RGB, HEX, HSL, RGBA, or HSLA values! For our purposes, we’ll be using colors from this extensive HTML library: (https://www.w3schools.com/colors/colors_names.asp)
+
+
+All you have to do to add a color to your dog is add the “fill” property to your polygon. To add the fill property, go to your closing quotation mark for your points property. After that closing quotation mark, add the “fill” property, like this: <polygon points=”x,y” fill=””>. Just like points, fill is not in quotations but the value is. Let’s make our dog purple. To make your dog purple, just add the “purple” value to your fill property like this: fill=”purple”. 
+
+
+You can make your dog any color you like. Just add a color name from the W3schools library into the quotations for fill!
+
+
+Step Six: Closing
+
+
+Thanks for following my tutorial! I hope you were able to create a dog SVG image. Use the instructions from this tutorial to try and make your own image. Have fun with it!
