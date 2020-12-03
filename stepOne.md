@@ -7,3 +7,7 @@ I personally use [Brackets](http://brackets.io/). It's free and can be used on b
 The first thing you need to do is open up a new document in Brackets.
 
 ![Screenshot1](https://i.imgur.com/UgMRjbk.png)
+
+Create a new file.
+
+![Screenshot2](https://i.imgur.com/Nuo04qX.png)
