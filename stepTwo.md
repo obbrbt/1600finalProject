@@ -131,5 +131,17 @@ The <body> tag holds the “body” of your document. This could be things like 
 
 Great! Now we've created a base for our **HTML** document to house our **SVG** image. This basic outline can be used with almost any **HTML** document so be sure to remember it!
 
-#### Next Steps
+### Next Step: Creating an SVG Image
+
+#### Tutorial Steps
+
+* [Introduction Page](README.md)
+* [Step One: What the Heck is SVG?](stepOne.md)
+* [Step Two: What the Heck is HTML? (Current Page)](stepTwo.md)
+* [Step Three: Creating an SVG Image](stepThree.md)
+* [Step Four: Making a Dog SVG Image](stepFour.md)
+* [Step Five: Adding Color](stepFive.md)
+* [Closing Page](closing.md)
+
+
 

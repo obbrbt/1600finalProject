@@ -11,4 +11,10 @@
 **Target Audience**: The intended audience for this tutorial is anyone who is old enough and knows how to use a computer. These instructions are meant to be detailed enough so that anyone who is new to using either HTML or is new to creating SVG images should be able to do so successfully.
 
 ### Tutorial Steps
+* [Introduction Page (Current Page)](README.md)
 * [Step One: What the Heck is SVG?](stepOne.md)
+* [Step Two: What the Heck is HTML?](stepTwo.md)
+* [Step Three: Creating an SVG Image](stepThree.md)
+* [Step Four: Making a Dog SVG Image](stepFour.md)
+* [Step Five: Adding Color](stepFive.md)
+* [Closing Page](closing.md)
