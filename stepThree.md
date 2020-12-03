@@ -2,41 +2,39 @@
 
 
 
-Alright, so now that we’ve discussed how to set up a basic **HTML** document, let’s begin talking about how to create an **SVG** image. W3schools has a more in-depth tutorial on how to create an **SVG** image [here](https://www.w3schools.com/graphics/svg_intro.asp). This tutorial will just explain the basics of starting an **SVG** image. The next tutorial will teach you how to make a specific image.
+Alright, so now that we’ve discussed how to set up a basic **HTML** document, let’s begin talking about how to create an **SVG** image. *W3schools* has a more in-depth tutorial on how to create an **SVG** image [here](https://www.w3schools.com/graphics/svg_intro.asp). This tutorial will just explain the basics of starting an **SVG** image. The next tutorial will teach you how to make a specific image.
 
-The first step to creating an **SVG** image is to define your <svg></svg> tags. These tags go inside your <body></body> tags. Add some space between the tags.
+The first step to creating an **SVG** image is to define your **&lt;svg>&lt;/svg>** tags. These tags go inside your **&lt;body>&lt;/body>** tags. Add some space between the tags.
 
 ![svgTags](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\17.PNG)
 
 
 
-After defining your <svg></svg> tags, you now need to define a height and width to the image. But first, let's discuss how an **SVG** image is mapped out.
+After defining your **&lt;svg>&lt;/svg>** tags, you now need to define a height and width to the image. But first, let's discuss how an **SVG** image is mapped out.
 
 To help visualize, think of your **HTML** document as a big graph. Each point on the graph is defined by an _x-_ and _y-coordinate_. Each point corresponds to a pixel. 
 
 For example, if you want your image to 100x100 pixels, imagine a graph that is 100x100 points large. By visualizing your **HTML** document as a graph, you can gain a better understanding of how to draw your image with **SVG**.
 
-To define an image to be 100x100 pixels wide, write height=”100” width=”100” in your <svg> open tag like this:
+To define an image to be 100x100 pixels wide, write height=”100” width=”100” in your **&lt;svg>** open tag like this:
 
 ![100by100](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\18.PNG)
 
 The next step is to decide on what kind of image you want to create.
 
-For a polygonal shape, I recommend using [Desmos](https://www.desmos.com/calculator) to place points on a graph, so you can define the points you need to create for your desired image. You can create a point with Desmos by typing a point like this: 
+For a polygonal shape, I recommend using *[Desmos](https://www.desmos.com/calculator)* to place points on a graph, so you can define the points you need to create for your desired image. You can create a point with *Desmos* by typing a point like this: 
 
 ![desmos](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\19.PNG)
 
-For a more simple image, you can use SVG’s predefined shapes, such as circles, rectangles and ellipses. Each of these shapes has its own defined properties, so be sure to check [W3schools](https://www.w3schools.com/graphics/svg_intro.asp) for which properties you need for each shape.
+For a more simple image, you can use **SVG**’s predefined shapes, such as circles, rectangles and ellipses. Each of these shapes has its own defined properties, so be sure to check *[W3schools](https://www.w3schools.com/graphics/svg_intro.asp)* for which properties you need for each shape.
 
+To create a polygon **SVG** image, you need to define a polygon.
 
-
-To create a polygon SVG image, you need to define a polygon.
-
-A polygon is defined with the <polygon></polygon> tags. Place your <polygon> tags inside of your <svg></svg> tags. 
+A polygon is defined with the **&lt;polygon>&lt;/polygon>** tags. Place your **&lt;polygon>** tags inside of your **&lt;svg>&lt;/svg>** tags. 
 
 ![polygonTags](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\20.PNG)
 
-The shape of your polygon will be set with the “points” property. “Points” are coordinate values on a graph. To define properties of a polygon, you place them in the opening <polygon> tag, just like how you added a height and width to your <svg> tag.
+The shape of your polygon will be set with the “points” property. “Points” are coordinate values on a graph. To define properties of a polygon, you place them in the opening **&lt;polygon>** tag, just like how you added a height and width to your **&lt;svg>** tag.
 
 ![polygonPoints](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\21.PNG)
 

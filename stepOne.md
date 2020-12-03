@@ -10,7 +10,7 @@ E**x**tensible **M**arkup **L**anguage, or XML, is a markup language that is com
 
 A markup language is any language on a computer that processes how text should be displayed. [Reference](https://en.wikipedia.org/wiki/Markup_language).
 
-The purpose of **SVG** is to create images programmatically _without_ having to open up another software, such as Photoshop, to create an image.
+The purpose of **SVG** is to create images programmatically _without_ having to open up another software, such as *Photoshop*, to create an image.
 
 In order to create an **SVG** image, you first need to create a document that can use SVG. For this tutorial, we’ll be using **HTML**.
 
@@ -19,8 +19,6 @@ But before we start, what the heck is **HTML**?
 
 
 ### Next Step: [Step Two: What the Heck is HTML?](stepTwo.md)
-
-
 
 
 
@@ -33,3 +31,4 @@ But before we start, what the heck is **HTML**?
 * [Step Four: Making a Dog SVG Image](stepFour.md)
 * [Step Five: Adding Color](stepFive.md)
 * [Closing Page](closing.md)
+
