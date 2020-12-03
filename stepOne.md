@@ -12,9 +12,15 @@ Create a new file.
 
 ![Screenshot2](https://i.imgur.com/Nuo04qX.png)
 
-Before you do any editing, the first thing you want to do is save the file. You're going to want to the file with an .html extension. In the next step, we'll go over the basics of HTML.
+Before you do any editing, the first thing you want to do is save the file. You're going to want to the file with an .html extension.
 
 ![Screenshot3](https://i.imgur.com/b3dwvqX.png)
+
+Name it something appropriate for the assignment. I'm going to name mine example.html, but I recommend you name yours something like, "Dog SVG.html",
+
+![Screenshot4](https://i.imgur.com/t9MDlAv.png)
+
+In the next step, we'll go over the basics of HTML.
 
 ### Next Step: Basics of HTML
 * [Step Two](stepTwo.md)
