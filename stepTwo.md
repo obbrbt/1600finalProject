@@ -4,33 +4,56 @@ We’re going to go over a broad definition of **HTML** and only use what is nec
 
 To begin, let’s first discuss the purpose of **HTML**.
 
-According to Wikipedia, “_Hypertext Markup Language (**HTML**) is the standard markup language for documents designed to be displayed in a web browser._”
-(https://en.wikipedia.org/wiki/HTML)
+#### What is HTML?
 
+According to Wikipedia, “_Hypertext Markup Language (**HTML**) is the standard markup language for documents designed to be displayed in a web browser._” [Reference](https://en.wikipedia.org/wiki/HTML).
 
-So, just like XML, HTML is a web-based markup language. HTML is also the most commonly used markup language on the web.
+So, just like **XML**, **HTML** is a web-based markup language. **HTML** is also the most commonly used markup language on the web.
+
+#### Creating an HTML Document
 
 Alright, so now you know what HTML is, but how do you create an HTML document?
 
-To begin, first download an appropriate text editing software. It has to be a software that is plain-text, and not rich-text. Plain-text means that what you see on the page is all the information available. Rich-text means that what you see on the page has things going on in the background, such as formatting. Microsoft Word, for example, is a rich-text format, so it won’t be appropriate for our purposes. We need a software that is plain-text and readable by a browser.
-
-For this tutorial, I’ll be using Brackets. If you would like to follow along, I would recommend downloading Brackets here: http://brackets.io/ or using your favorite plain text editor.
+To begin, first download an appropriate text editing software. It has to be a software that is 
+_plain-text_, and not _rich-text_. _Plain-text_ means that what you see on the page is all the information available. _Rich-text_ means that what you see on the page has things going on in the background, such as formatting. Microsoft Word, for example, is a _rich-text_ format, so it won’t be appropriate for our purposes. We need a software that is _plain-text_ and readable by a browser.
 
 I like to use Brackets because it’s free and available on both Mac and Windows computers.
 
-Now, the first thing you want to do is open up a new file in Brackets. Before you start any editing, you want to save the file with a .html extension. I’ll be calling my file “tutorial.html” but you can name yours to anything you wish, as long as it ends with “.html”.
+![Brackets](./images/1.png)
+
+To follow along, open up your favorite plain text editor. I'll be using Brackets. You can download Brackets [here:](http://brackets.io/). 
+
+_**Note**: if you're following along in a different plain text editor, the same features may not be available. For the best experience with this tutorial, I highly recommend using Brackets._
+
+#### Getting Started in Brackets
+
+Now, the first thing you want to do is open up a new file in Brackets. 
+
+![newFile](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\2.PNG)
+
+Before you start any editing, you want to save the file with a .html extension. 
+
+![saveFile](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\3.PNG)
+
+I’ll be calling my file “tutorial.html” but you can name yours to anything you wish, as long as it ends with “.html”.
+
+![nameFile](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\4.PNG)
+
+One nice feature in Brackets is the "live preview" function. At any time while writing your **HTML**, you can view your progress by click this button:
+
+![livePreview](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\5.PNG)
 
 Now that you have an HTML document ready, let’s discuss how to start writing HTML.
 
 For our purposes, we’ll be using five basic tags in HTML, but know that there are many more.
 
-<!DOCTYPE>
+#### <!DOCTYPE>
 
-When you first create an HTML document, the first line of code you need is the doctype declaration. The doctype declaration provides information to your browser to prepare it to use a specific document format. In this case, it’ll be using the html format.
+When you first create an HTML document, the first line of code you need is the **doctype declaration**. The doctype declaration provides information to your browser to prepare it to use a specific document format. In this case, it’ll be using the html format.
 
-The doctype declaration looks like this: <!DOCTYPE format>
+The doctype declaration looks like this: 
 
-
+![docType](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\6.PNG)
 
 It’s not case sensitive, so you can use <!doctype>, <!DocType>, <!docType>, or even <!dOcTyPe> and it will still work. However, it is most commonly seen in all caps, so that’s what we’ll be using for our document.
 
