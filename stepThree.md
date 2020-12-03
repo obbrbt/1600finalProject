@@ -22,50 +22,52 @@ To define an image to be 100x100 pixels wide, write height=”100” width=”10
 
 The next step is to decide on what kind of image you want to create.
 
+For a polygonal shape, I recommend using [Desmos](https://www.desmos.com/calculator) to place points on a graph, so you can define the points you need to create for your desired image. You can create a point with Desmos by typing a point like this: 
 
+![desmos](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\19.PNG)
 
-For a polygonal shape, I recommend drawing your desired image on graph paper, so you can define the points you need to create. This kind of image will have to be created with a polygon.
-
-
-
-For a more simple image, you can use SVG’s predefined shapes, such as circles, rectangles and ellipses. Each of these shapes has its own defined properties, so be sure to check W3schools(https://www.w3schools.com/graphics/svg_intro.asp) for which properties you need for each shape.
+For a more simple image, you can use SVG’s predefined shapes, such as circles, rectangles and ellipses. Each of these shapes has its own defined properties, so be sure to check [W3schools](https://www.w3schools.com/graphics/svg_intro.asp) for which properties you need for each shape.
 
 
 
 To create a polygon SVG image, you need to define a polygon.
 
+A polygon is defined with the <polygon></polygon> tags. Place your <polygon> tags inside of your <svg></svg> tags. 
 
+![polygonTags](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\20.PNG)
 
-A polygon is defined with the <polygon></polygon> tags. Place your <polygon> tags inside of your <svg></svg> tags. To define properties of a polygon, you place them in the opening <polygon> tag. 
+The shape of your polygon will be set with the “points” property. “Points” are coordinate values on a graph. To define properties of a polygon, you place them in the opening <polygon> tag, just like how you added a height and width to your <svg> tag.
 
+![polygonPoints](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\21.PNG)
 
-
-The shape of your polygon will be set with the “points” property. “Points” are coordinate values on a graph.
-
-
-
-Put a points property in your polygon start tag like this: <polygon points=””></polygon>
-
-
-
-The points of the polygon are defined as: points=”x1,y1 x2,y2 x3,y3”
-
-
+The points of the polygon are defined as: points=”x1,y1 x2,y2 x3,y3”. When you place a coordinate in the points property, separate the x- and y-coordinates with a comma and then use a space between coordinates.
 
 Each of these points will be placed on a graph and lines will be drawn between them to create an image.
 
 
 
-Here’s a simple example of a triangle created with SVG polygons:
+#### Example
 
+Here’s a simple example of a triangle created with **SVG** polygons:
 
-
-
+![triangle](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\22.PNG)
 
 Here’s the code to do this:
 
+![triangleCode](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\23.PNG)
+
+You can create almost any shape you desire with **SVG**. Just by following these simple steps, you can create an image on your own!
 
 
 
+### Next Step: Making a Dog SVG Image
 
-This is the set-up for a basic polygonal SVG image. From here, you can either create your own unique image by setting the points yourself or you can continue with this tutorial to create your own Dog SVG image.
+#### Tutorial Steps
+
+* [Introduction Page](README.md)
+* [Step One: What the Heck is SVG?](stepOne.md)
+* [Step Two: What the Heck is HTML?](stepTwo.md)
+* [Step Three: Creating an SVG Image (Current Page)](stepThree.md)
+* [Step Four: Making a Dog SVG Image](stepFour.md)
+* [Step Five: Adding Color](stepFive.md)
+* [Closing Page](closing.md)
