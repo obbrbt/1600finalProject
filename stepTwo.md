@@ -59,62 +59,77 @@ It’s not case sensitive, so you can use <!doctype>, <!DocType>, <!docType>, or
 
 
 
-The format portion of the <!DOCTYPE> declaration contains what format to prepare our browser for. Since we’ll be using html, we want to prepare our browser to use html by having our first line of code look like this: <!DOCTYPE html>
+The format portion of the <!DOCTYPE> declaration contains what format to prepare our browser for. Since we’ll be using html, we want to prepare our browser to use html by having our first line of code look like this: 
 
+![docTypeHtml](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\7.PNG)
 
+#### HTML Tags
 
-<html>
+Let's talk about tags. 
 
+**HTML** documents are made up of html tags. These tags are defined with <>. To create a tag, you put the tag name between <>, like this:
 
+![tag](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\8.PNG)
 
-The second basic tag we’ll be using is the <html> tag. 
+This is an opening tag. You use it to start the definition of something. To close a tag, you use a / after the <, like this:
 
-Before we discuss the <html> tag, let’s first talk about tags in general. All tags have an opening tag that looks like this: <tag>
+![closeTag](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\9.PNG)
 
-Some tags, like the <html> tag, need to have a close tag in order to be used. The html close tag looks like this: </html>
+Not all tags require both open and close tags. Some only need an opening tag. <img> is a tag that only requires the open tag. To learn more about tags, visit this W3schools [link](https://www.w3schools.com/tags).
 
+#### <html>
 
-
-Not all tags require both open and close tags. Some only need an opening tag. <img> is a tag that only requires the open tag. To learn more about tags, visit this W3schools link: (https://www.w3schools.com/tags)
-
-So, to use an <html> tag, make sure you also use the </html> close tag.
-
-
-
-Now that we know more about tags, let’s talk about why you need to use the <html> tag in the first place. 
-
-
+The first basic tag we'll discuss is the <html> tag.
 
 The <html> tag contains all of the information that goes into an HTML document, except for the <!DOCTYPE> declaration.
 
 Every other tag that you create will be placed between the open <html> tag and the close </html> tag.
 
-<head>
+Create the <html></html> tags in your document.
 
+![htmlTags](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\10.PNG)
 
+When you close the first <html> tag, Brackets will automatically create the close tag.
 
-After creating your <html> tags, the next thing you want to write are the <head></head> tags. The <head> in an HTML document can hold all sorts of things, including style sheets, scripts, and titles. For our purposes, we’ll only be using <head> for a <title> tag.
+#### <head>
 
-<title>
+After creating your <html> tags, the next thing you want to write are the <head></head> tags. 
 
-Now that you have a <head> tag, let’s place <title></title> tags inside of them.
+The <head> in an HTML document can hold all sorts of things, including style sheets, scripts, and titles. For our purposes, we’ll only be using <head> for a <title> tag.
 
+Add the <head></head> tags in between your <html></html> tags. Add some room in your document. It will help make it more readable.
 
+![headTags](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\11.PNG)
+
+#### <title>
+
+Now that you have a <head> tag, let’s place <title></title> tags inside of them. Again, add some space between your tags to make your code more readable.
+
+![titleTag](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\12.PNG)
 
 The <title> tag is used to define a title to your HTML document. Whenever you view an HTML document in a browser, the title will be at the top of the tab.
 
+![titleBrowser](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\13.PNG)
 
+For my HTML document, I’m going to be naming mine “SVG Tutorial”. 
 
-For my HTML document, I’m going to be naming mine “SVG Tutorial”. You can name yours whatever you like. Just make sure you place the title between the <title></title> tags and the <title></title> tags between the <head></head> tags.
+![svgTutorialTitle](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\14.PNG)
 
+You can name yours whatever you like. Just make sure you place the title between the <title></title> tags and the <title></title> tags between the <head></head> tags.
 
+Also, this wouldn't be a bad time to use the live preview function in Brackets. You'll be able to see your title in your browser now!
 
-<body>
+![titleInBrowser](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\15.PNG)
 
+#### <body>
 
+The final tag we’ll be discussing is the <body> tag. Just like the other two tags, <body> needs both an opening <body> tag and a closing </body> tag. Add your <body></body> tags after your <head></head> tags. <body> has to be placed outside of the <head></head> tags.
 
-The final tag we’ll be discussing is the <body> tag. Just like the other two tags, <body> needs both an opening <body> tag and a closing </body> tag.
-
-
+![bodyTags](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\16.PNG)
 
 The <body> tag holds the “body” of your document. This could be things like headers, paragraphs, and images. Our body is going to hold our <SVG> image.
+
+Great! Now we've created a base for our **HTML** document to house our **SVG** image. This basic outline can be used with almost any **HTML** document so be sure to remember it!
+
+#### Next Steps
+
