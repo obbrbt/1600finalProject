@@ -1,6 +1,6 @@
 # What the Heck is HTML?
 
-We’re going to go over a broad definition of **HTML** and only discuss what is necessary for this tutorial. For a more in-depth tutorial on how to use **HTML**, I recommend using [W3Schools](https://www.w3schools.com/html/default.asp) tutorial on **HTML**.
+We’re going to go over a broad definition of **HTML** and only discuss what is necessary for this tutorial. For a more in-depth tutorial on how to use **HTML**, I recommend using *[W3Schools](https://www.w3schools.com/html/default.asp)* tutorial on **HTML**.
 
 To begin, let’s first discuss the purpose of **HTML**.
 
@@ -18,7 +18,7 @@ To begin, first download an appropriate text editing software. It has to be a so
 
 _Rich-text_ that formatting is not viewable on the page and is only machine-readable. Programs like *Microsoft Word*, *TextEdit*, and *Google Docs* are all examples of programs that use *rich-text*. *Rich-text* is not viewable by browsers.  We need a software that is _plain-text_ and readable by a browser.
 
-I like to use *Brackets* because it’s free and available on both Mac and Windows computers.
+I like to use *Brackets* as my *plain-text* editor because it’s free and available on both Mac and Windows computers.
 
 ![Brackets](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/1.PNG)
 
