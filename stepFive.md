@@ -8,29 +8,29 @@ You're also not limited to these colors! If you want more precise colors, you ca
 
 I've decided that I want my dog to be purple.
 
-![purple](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\42.PNG)
+![purple](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/42.PNG)
 
 All you have to do to add color to your dog is add the "fill" attribute to your **&lt;polygon>** tag.
 
 Remember, attributes are not contained within quotation marks but their values are. For example, remember how you placed points on your polygon. Within the opening tag of your **&lt;polygon>** tag, you added:
 
-![polygonPoints](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\43.PNG)
+![polygonPoints](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/43.PNG)
 
 So, to add the fill attribute, mimic this.
 
-![fillAttr](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\44.PNG)
+![fillAttr](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/44.PNG)
 
 Add your color within these quotation marks:
 
-![purpleFill](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\45.PNG)
+![purpleFill](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/45.PNG)
 
-Your code should look like this:
+Your code should look like this (with your chosen color):
 
-![completeCode](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\46.PNG)
+![completeCode](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/46.PNG)
 
 And your dog should now be colored!
 
-![coloredDog](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\47.PNG)
+![coloredDog](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/47.PNG)
 
 All done! It looks great!
 
