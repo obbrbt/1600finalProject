@@ -45,3 +45,4 @@ All done! It looks great!
 * [Step Four: Making a Dog SVG Image](stepFour.md)
 * [Step Five: Adding Color (Current Page)](stepFive.md)
 * [Closing Page](closing.md)
+
