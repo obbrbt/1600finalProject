@@ -20,7 +20,7 @@ _Rich-text_ that formatting is not viewable on the page and is only machine-read
 
 I like to use *Brackets* because it’s free and available on both Mac and Windows computers.
 
-![Brackets](.1600finalProject/main/images/1.PNG)
+![Brackets](https://raw.githubusercontent.com/obbrbt/1600finalProject/main/images/1.PNG)
 
 To follow along, open up your favorite plain-text editor. I'll be using Brackets. You can download Brackets [here:](http://brackets.io/). 
 
