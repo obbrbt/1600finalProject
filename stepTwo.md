@@ -60,7 +60,7 @@ For our purposes, we’ll be using five basic tags in **HTML**, but know that th
 
 #### <!DOCTYPE>
 
-When you first create an HTML document, the first line of code you need is the **doctype declaration**. The doctype declaration provides information to your browser to prepare it to use a specific document format. In this case, it’ll be using the html format.
+When you first create an **HTML** document, the first line of code you need is the **doctype declaration**. The doctype declaration provides information to your browser to prepare it to use a specific document format. In this case, it’ll be using the html format.
 
 The doctype declaration looks like this: 
 
