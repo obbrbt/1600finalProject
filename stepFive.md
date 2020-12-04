@@ -34,7 +34,7 @@ And your dog should now be colored!
 
 All done! It looks great!
 
-# Next Step: [Closing](closing.md)
+### Next Step: [Closing](closing.md)
 
 #### Tutorial Steps
 

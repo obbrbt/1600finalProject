@@ -2,7 +2,7 @@
 
 Thanks for following tutorial! I hoped you learned a lot about both **HTML** and **SVG** and now have a really nice dog to show all your friends and family! Use these instructions and make an even cooler image. Have fun with it!
 
-# Return: [Introduction Page](README.md)
+### Return: [Introduction Page](README.md)
 
 #### Tutorial Steps
 

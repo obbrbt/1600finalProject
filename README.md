@@ -10,7 +10,7 @@
 
 **Target Audience**: The intended audience for this tutorial is anyone who is old enough to use a computer and knows how to. These instructions are meant to be detailed enough so that anyone who is new to using either HTML or is new to creating SVG images should be able to do so successfully.
 
-# Next Step: [Step One: What the Heck is HTML?](stepOne.md)
+### Next Step: [Step One: What the Heck is HTML?](stepOne.md)
 
 ### Tutorial Steps
 
