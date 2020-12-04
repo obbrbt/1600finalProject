@@ -24,7 +24,7 @@ I like to use *Brackets* because it’s free and available on both Mac and Windo
 
 To follow along, open up your favorite plain-text editor. I'll be using Brackets. You can download Brackets [here:](http://brackets.io/). 
 
-_**Note**: if you're following along in a different plain-text editor, the same features may not be available. For the best experience with this tutorial, I highly recommend using Brackets._
+_**Note**: If you're following along in a different plain-text editor, the same features may not be available. For the best experience with this tutorial, I highly recommend using Brackets._
 
 #### Getting Started in *Brackets*
 
@@ -40,9 +40,19 @@ I’ll be calling my file “tutorial.html” but you can name yours to anything
 
 ![nameFile](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\4.PNG)
 
-One nice feature in *Brackets* is the "live preview" function. At any time while writing your **HTML**, you can view your progress by click this button:
+One nice feature in *Brackets* is the "live preview" function. At any time while writing your **HTML**, you can view your progress by clicking this button:
 
 ![livePreview](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\5.PNG)
+
+This will launch a *Chrome* window. If you don't have *Chrome* installed, click [here](https://www.google.com/chrome/). 
+
+If you launch it while no code is written, you won't see anything on your page yet. 
+
+![blankPreviewPage](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\26.PNG)
+
+But as you start writing code, eventually you'll start seeing subtle changes. 
+
+![SVGtutorialTitle](C:\Users\Livvy\Documents\GitHub\final-project\1600finalProject\images\15.PNG)
 
 Now that you have an **HTML** document ready, let’s discuss how to start writing **HTML**.
 
